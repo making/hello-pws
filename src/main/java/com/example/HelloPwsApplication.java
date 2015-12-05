@@ -11,7 +11,7 @@ public class HelloPwsApplication {
 
     @RequestMapping("/")
     String hello() {
-        return "Hello from " + System.getenv("CF_INSTANCE_ADDR");
+        return "Hello v2 from " + System.getenv("CF_INSTANCE_ADDR");
     }
 
     public static void main(String[] args) {
