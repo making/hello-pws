@@ -1,0 +1,8 @@
+---
+applications:
+- name: hello-pws
+  path: target/hello-pws.jar
+  host: hello-pws
+  memory: 256M
+  services:
+    - eureka-service
